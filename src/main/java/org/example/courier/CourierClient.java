@@ -1,8 +1,6 @@
 package org.example.courier;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
-
 import static io.restassured.RestAssured.given;
 
 public class CourierClient {
@@ -27,6 +25,18 @@ public class CourierClient {
                 .body(creds)
                 .when()
                 .post(ROOT + "/login")
+                .then().log().all();
+    }
+
+    public ValidatableResponse delete(int courierId){
+        String json = String.format("{\"id\": \"%\"}", courierId);
+
+        return given().log().all()
+                .contentType(ContentType.JSON)
+                .baseUri(BASE_URI)
+                .body(json)
+                .when()
+                .delete(ROOT + "/" +courierId)
                 .then().log().all();
     }
 }
