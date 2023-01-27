@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ca74c0d-992e-4fd1-815e-ec1477bd8eee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid21468.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid24232.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid24364.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/order/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/order/OrderGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/courier/CourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/order/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/order/OrderTestParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/courier/CourierCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/courier/CourierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/courier/CourierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +40,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
@@ -73,6 +56,46 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example.order" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CourierTest.courierCheck">
+    <configuration name="CourierTest.courierCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.courier" />
+      <option name="MAIN_CLASS_NAME" value="org.example.courier.CourierTest" />
+      <option name="METHOD_NAME" value="courierCheck" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierTest.createTwoSameCouriers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.courier" />
+      <option name="MAIN_CLASS_NAME" value="org.example.courier.CourierTest" />
+      <option name="METHOD_NAME" value="createTwoSameCouriers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourierTest.courierCheck" />
+        <item itemvalue="JUnit.CourierTest.createTwoSameCouriers" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +106,33 @@
       <option name="presentableId" value="Default" />
       <updated>1674420282714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1674421999805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674421999805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/courier/CourierTest.java</url>
+          <line>19</line>
+          <properties class="org.example.courier.CourierTest" method="courierCheck">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

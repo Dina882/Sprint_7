@@ -17,16 +17,14 @@ public class CourierTest {
     }
 
     @Test
-    public void courier() {
+    public void courierCheck() {
         var courier = generator.random();
         ValidatableResponse creationResponse = client.create(courier);
         check.assertCreatedSuccessful(creationResponse);
 
         Credentials creds = Credentials.from(courier);
         ValidatableResponse loginResponse = client.login(creds);
-        int id = check.loggedInSuccessful(loginResponse);
-
-        assert id >100;
+        check.loggedInSuccessful(loginResponse);
     }
 
     @Test

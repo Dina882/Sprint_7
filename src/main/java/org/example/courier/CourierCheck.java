@@ -6,22 +6,17 @@ public class CourierCheck {
     public void assertCreatedSuccessful(ValidatableResponse response){
         response.assertThat()
                 .statusCode(201)
-                .body("ok", is(true))
-        ;
+                .body("ok", is(true));
     }
-    public int loggedInSuccessful(ValidatableResponse response) {
-        return response.assertThat()
+    public void loggedInSuccessful(ValidatableResponse response) {
+         response.assertThat()
                 .statusCode(200)
-                .body("id", greaterThan(0))
-                .extract()
-                .path("id")
-                ;
+                .body("id", greaterThan(0));
     }
 
     public void creationFailed(ValidatableResponse response){
         response.assertThat()
-                .statusCode(400)
-        ;
+                .statusCode(400);
     }
 
     public void loginFailed(ValidatableResponse response) {
@@ -33,8 +28,7 @@ public class CourierCheck {
     public void deletedSuccessfully(ValidatableResponse response) {
         response.assertThat()
                 .statusCode(200)
-                .body("ok",is(true))
-        ;
+                .body("ok",is(true));
     }
 
     public void loginIsUsed(ValidatableResponse response) {
@@ -42,8 +36,7 @@ public class CourierCheck {
                 .statusCode(201)
                 .body("ok",is(true))
                 .log()
-                .all()
-        ;
+                .all();
     }
 }
 
